@@ -14,6 +14,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
+    <HashRouter>
     <MotionConfig reducedMotion="user">
       <div className="App">
         <BackgroundAnimation />
@@ -30,6 +31,7 @@ function App() {
         <Footer />
       </div>
     </MotionConfig>
+    </HashRouter>
   );
 }
 
