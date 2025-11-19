@@ -1,12 +1,13 @@
 {
   "name": "react-portfolio",
   "private": true,
-  "homepage": "https://mona263.github.io/react-portfolio",
+  "homepage": ".",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "react-scripts build",
+    "predeploy": "npm run build" ,
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "clean": "rm -rf node_modules/.vite node_modules/.cache",
