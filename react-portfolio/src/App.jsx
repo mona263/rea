@@ -11,10 +11,11 @@ import Certifications from './components/Certifications';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <HashRouter>
+    <Router>
     <MotionConfig reducedMotion="user">
       <div className="App">
         <BackgroundAnimation />
@@ -31,7 +32,7 @@ function App() {
         <Footer />
       </div>
     </MotionConfig>
-    </HashRouter>
+    </Router>
   );
 }
 
